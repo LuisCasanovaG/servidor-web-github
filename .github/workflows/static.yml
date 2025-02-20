@@ -1,3 +1,10 @@
+  #- name: Fetch external API
+       # run: |
+        #  curl -o file.json htttps://jsonplaceholder.typicode.com/posts
+         # echo "Datos se guardaorn"
+          #cat data.json
+
+
 name: Deploy Dynamic JSON for Load Balancing
 
 on:
@@ -50,10 +57,4 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-
-      #- name: Fetch external API
-       # run: |
-        #  curl -o file.json htttps://jsonplaceholder.typicode.com/posts
-         # echo "Datos se guardaorn"
-          #cat data.json
-
+        
