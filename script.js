@@ -18,5 +18,5 @@ async function fetchData() {
   }
 }
 
-// Ejecuta fetchData una sola vez cuando se carga la página
+// Ejecuta fetchData una sola vez cuando se carga la páginas
 fetchData();
